@@ -1,0 +1,19 @@
+# 의존성 폴더 및 빌드 폴더 제외
+node_modules/
+.next/
+
+# 다른 하위 프로젝트 폴더 제외 (랜딩 페이지만 업로드)
+create-harness/
+docs/
+harness/
+harness-company/
+harness-landing/
+harness-test/
+
+# 임시 파일 및 시스템 파일 제외
+.DS_Store
+package-lock.json
+.env.local
+.system_generated/
+task-*.log
+*.log
