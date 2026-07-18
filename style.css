@@ -496,7 +496,7 @@ img {
 
 .section-header {
   text-align: center;
-  max-width: 600px;
+  max-width: 1000px; /* PC 화면에서 대제목이 끊어지지 않도록 최대 너비 확장 */
   margin: 0 auto 60px auto;
 }
 
@@ -522,6 +522,8 @@ img {
   color: var(--text-secondary);
   font-size: 1.05rem;
   word-break: keep-all;
+  max-width: 600px; /* 설명 글은 가독성을 위해 600px로 폭 제한 및 중앙 정렬 */
+  margin: 0 auto;
 }
 
 .keywords-grid {
