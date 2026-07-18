@@ -1058,11 +1058,16 @@ img {
 .delay-2 { transition-delay: 0.3s; }
 .delay-3 { transition-delay: 0.45s; }
 
-/* 유틸리티 컬러 클래스 */
+/* - 유틸리티 컬러 클래스 - */
 .color-orange { color: var(--color-orange); }
 .color-green { color: var(--color-green); }
 .color-blue { color: var(--color-blue); }
 .color-beige { color: var(--color-beige); }
+
+/* PC 화면에서는 모바일용 줄바꿈 태그를 무시 */
+.mobile-only {
+  display: none;
+}
 
 /* ==========================================
    14. Media Queries (Responsive 반응형)
@@ -1194,5 +1199,10 @@ img {
   
   .footer-contact {
     grid-column: span 1;
+  }
+
+  /* 모바일 화면에서만 줄바꿈 태그 활성화 */
+  .mobile-only {
+    display: inline;
   }
 }
