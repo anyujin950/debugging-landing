@@ -511,7 +511,7 @@ img {
 }
 
 .section-header h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
   margin-bottom: 16px;
   letter-spacing: -1px;
@@ -876,7 +876,7 @@ img {
 }
 
 .apply-box h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
   margin-bottom: 16px;
   letter-spacing: -1px;
@@ -1178,7 +1178,13 @@ img {
   }
   
   .apply-box h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    word-break: keep-all;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+    word-break: keep-all;
   }
   
   .apply-info-cards {
