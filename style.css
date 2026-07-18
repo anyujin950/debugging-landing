@@ -1190,6 +1190,11 @@ img {
   .activity-section .section-header h2 {
     font-size: 1.8rem;
   }
+
+  /* 지원 박스 대제목 크기만 모바일에서 한 단계 축소하여 의도한 줄바꿈 유도 */
+  .apply-box h2 {
+    font-size: 1.8rem;
+  }
   
   .apply-info-cards {
     flex-direction: column;
