@@ -511,11 +511,11 @@ img {
 }
 
 .section-header h2 {
-  font-size: 4.4rem;
+  font-size: 3.8rem;
   font-weight: 800;
   margin-bottom: 16px;
   letter-spacing: -1.5px;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
 .section-header p {
@@ -877,11 +877,11 @@ img {
 }
 
 .apply-box h2 {
-  font-size: 4.4rem;
+  font-size: 3.8rem;
   font-weight: 800;
   margin-bottom: 16px;
   letter-spacing: -1.5px;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
 .apply-box p {
@@ -1181,8 +1181,8 @@ img {
   
   .apply-box h2,
   .section-header h2 {
-    font-size: 3.4rem; /* 모바일에서 초거대 3.4rem 폰트로 개편 */
-    line-height: 1.15;
+    font-size: 3.0rem; /* 모바일 대제목 3.0rem 정밀 조율 */
+    line-height: 1.2;
     word-break: keep-all;
   }
   
