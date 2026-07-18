@@ -150,6 +150,7 @@ img {
   cursor: pointer;
   transition: all var(--transition-normal);
   border: none;
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -1129,7 +1130,7 @@ img {
   }
   
   .hero-section {
-    padding: 120px 0 60px 0;
+    padding: 155px 0 60px 0;
   }
   
   .hero-content h1 {
@@ -1138,6 +1139,16 @@ img {
   
   .hero-content h1 span {
     font-size: 1.7rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
   }
   
   .keywords-grid {
