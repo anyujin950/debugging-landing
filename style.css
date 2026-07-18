@@ -65,7 +65,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 15px; /* 전체 폰트 크기 미세 축소 */
+  font-size: 16px;
 }
 
 body {
@@ -640,6 +640,11 @@ img {
   background: var(--bg-gradient-main);
 }
 
+/* 차별점 제목만 단어 밀집도를 위해 미세 축소 */
+.features-section .section-header h2 {
+  font-size: 1.8rem;
+}
+
 .features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1122,12 +1127,13 @@ img {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 13.5px; /* 모바일 전체 폰트 크기 미세 축소 */
-  }
-
   .site-header {
     height: 70px;
+  }
+
+  /* 차별점 제목 모바일 폰트 크기 개별 축소 */
+  .features-section .section-header h2 {
+    font-size: 1.3rem;
   }
   
   .main-nav {
