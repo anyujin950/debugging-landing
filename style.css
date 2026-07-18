@@ -511,7 +511,7 @@ img {
 }
 
 .section-header h2 {
-  font-size: 3.6rem;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 16px;
   letter-spacing: -1.5px;
@@ -877,7 +877,7 @@ img {
 }
 
 .apply-box h2 {
-  font-size: 3.6rem;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 16px;
   letter-spacing: -1.5px;
@@ -1181,7 +1181,7 @@ img {
   
   .apply-box h2,
   .section-header h2 {
-    font-size: 2.6rem; /* 모바일 대제목 2.6rem 정밀 조율 */
+    font-size: 2.5rem; /* 모바일 대제목 2.5rem 정밀 조율 */
     line-height: 1.2;
     word-break: keep-all;
   }
